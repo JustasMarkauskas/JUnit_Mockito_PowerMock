@@ -1,5 +1,0 @@
-INDEX VERSION 1.131+C:\Users\justa\eclipse-workspace\JUnit-Mockito_Powermock\.metadata\.plugins\org.eclipse.jdt.core
-3841185164.index
-3803309674.index
-2573397216.index
-3628808346.index

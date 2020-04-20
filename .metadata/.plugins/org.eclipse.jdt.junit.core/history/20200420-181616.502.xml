@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="StringHelperParameterizedTest" project="junit" tests="2" started="2" failures="0" errors="0" ignored="0">
-  <testsuite name="com.in28minutes.junit.helper.StringHelperParameterizedTest" time="0.0">
-    <testcase name="testTruncateAInFirst2Positions_AInFirstPosition" classname="com.in28minutes.junit.helper.StringHelperParameterizedTest" time="0.0"/>
-    <testcase name="testTruncateAInFirst2Positions_AInFirst2Position" classname="com.in28minutes.junit.helper.StringHelperParameterizedTest" time="0.0"/>
-  </testsuite>
-</testrun>
