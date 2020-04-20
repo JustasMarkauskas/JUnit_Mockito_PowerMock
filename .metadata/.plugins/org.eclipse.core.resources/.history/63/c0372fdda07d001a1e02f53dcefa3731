@@ -1,0 +1,47 @@
+package com.in28minutes.junit.helper;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class StringHelperTest {
+	// AACD => CD ACD => CD CDEF => CDEF
+	
+	StringHelper helper = new StringHelper();
+
+	@Test
+	public void testTruncateAInFirst2Positions_AInFirst2Positions() {
+		String actual = helper.truncateAInFirst2Positions("AACD");
+		String expected = "CD";
+		assertEquals(expected, actual);
+		// expecter, actual
+	}
+
+	@Test
+	public void testTruncateAInFirst2Positions_AInFirstPosition() {
+		assertEquals("CD", helper.truncateAInFirst2Positions("ACD"));
+	}
+	
+	@Test
+	public void testTruncateAInFirst2Positions_NoA() {
+		assertEquals("CDEF", helper.truncateAInFirst2Positions("CDEF"));
+	}
+
+	@Test
+	public void testTruncateAInFirst2Positions_AInTheEnd() {
+		assertEquals("CDAA", helper.truncateAInFirst2Positions("CDAA"));
+	}
+	//ABCD=>false, ABAB=>true, AB=>true, A=>false
+	
+	@Test
+	
+	public void testAreFirstAndLastTwoCharactersTheSame_BasicNegativeScenario() {
+		boolean actual = helper.areFirstAndLastTwoCharactersTheSame("ABCD");
+		assertEquals(false, actual);
+	}
+	
+	
+	
+	
+	
+}

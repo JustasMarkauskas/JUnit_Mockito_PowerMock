@@ -1,0 +1,20 @@
+package com.in28minutes.junit.helper;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class StringHelperTest {
+
+	@Test
+	public void testTruncateAInFirst2Positions() {
+		StringHelper helper = new StringHelper();
+		String actual = helper.truncateAInFirst2Positions("AACD");
+		String actual2 = helper.truncateAInFirst2Positions("ACD");
+		String expected = "CD";
+		assertEquals(expected, actual);
+		assertEquals(expected, actual2);
+		// expecter, actual
+	}
+
+}

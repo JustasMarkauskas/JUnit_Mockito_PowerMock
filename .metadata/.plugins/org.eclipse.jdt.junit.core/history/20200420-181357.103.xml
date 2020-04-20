@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="StringHelperParameterizedTest" project="junit" tests="8" started="8" failures="0" errors="0" ignored="0">
+  <testsuite name="com.in28minutes.junit.helper.StringHelperParameterizedTest" time="0.001">
+    <testcase name="testTruncateAInFirst2Positions_AInFirstPosition" classname="com.in28minutes.junit.helper.StringHelperParameterizedTest" time="0.001"/>
+    <testcase name="testAreFirstAndLastTwoCharactersTheSame_BasicNegativeScenario" classname="com.in28minutes.junit.helper.StringHelperParameterizedTest" time="0.0"/>
+    <testcase name="testAreFirstAndLastTwoCharactersTheSame_NegativeScenario" classname="com.in28minutes.junit.helper.StringHelperParameterizedTest" time="0.0"/>
+    <testcase name="testAreFirstAndLastTwoCharactersTheSame_BasicPositiveScenario" classname="com.in28minutes.junit.helper.StringHelperParameterizedTest" time="0.0"/>
+    <testcase name="testTruncateAInFirst2Positions_AInTheEnd" classname="com.in28minutes.junit.helper.StringHelperParameterizedTest" time="0.0"/>
+    <testcase name="testTruncateAInFirst2Positions_NoA" classname="com.in28minutes.junit.helper.StringHelperParameterizedTest" time="0.0"/>
+    <testcase name="testAreFirstAndLastTwoCharactersTheSame_PositiveScenario" classname="com.in28minutes.junit.helper.StringHelperParameterizedTest" time="0.0"/>
+    <testcase name="testTruncateAInFirst2Positions_AInFirst2Positions" classname="com.in28minutes.junit.helper.StringHelperParameterizedTest" time="0.0"/>
+  </testsuite>
+</testrun>

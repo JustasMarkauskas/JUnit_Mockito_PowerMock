@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="com.in28minutes.junit.helper" project="junit" tests="21" started="21" failures="0" errors="0" ignored="0">
+  <testsuite name="com.in28minutes.junit.helper.QuickBeforeAfterTest" time="0.0">
+    <testcase name="test1" classname="com.in28minutes.junit.helper.QuickBeforeAfterTest" time="0.0"/>
+    <testcase name="test2" classname="com.in28minutes.junit.helper.QuickBeforeAfterTest" time="0.0"/>
+  </testsuite>
+  <testsuite name="com.in28minutes.junit.helper.StringHelperParameterizedTestBoolean" time="0.0">
+    <testsuite name="[0]" time="0.0">
+      <testcase name="testAreFirstAndLastTwoCharactersTheSame[0]" classname="com.in28minutes.junit.helper.StringHelperParameterizedTestBoolean" time="0.0"/>
+    </testsuite>
+    <testsuite name="[1]" time="0.0">
+      <testcase name="testAreFirstAndLastTwoCharactersTheSame[1]" classname="com.in28minutes.junit.helper.StringHelperParameterizedTestBoolean" time="0.0"/>
+    </testsuite>
+    <testsuite name="[2]" time="0.0">
+      <testcase name="testAreFirstAndLastTwoCharactersTheSame[2]" classname="com.in28minutes.junit.helper.StringHelperParameterizedTestBoolean" time="0.0"/>
+    </testsuite>
+    <testsuite name="[3]" time="0.0">
+      <testcase name="testAreFirstAndLastTwoCharactersTheSame[3]" classname="com.in28minutes.junit.helper.StringHelperParameterizedTestBoolean" time="0.0"/>
+    </testsuite>
+  </testsuite>
+  <testsuite name="com.in28minutes.junit.helper.ArraysCompareTest" time="0.0">
+    <testcase name="testArraySort_randomArray" classname="com.in28minutes.junit.helper.ArraysCompareTest" time="0.0"/>
+    <testcase name="testArraySort_NullArray" classname="com.in28minutes.junit.helper.ArraysCompareTest" time="0.0"/>
+    <testcase name="testSort_performance" classname="com.in28minutes.junit.helper.ArraysCompareTest" time="0.0"/>
+  </testsuite>
+  <testsuite name="com.in28minutes.junit.helper.StringHelperParameterizedTest" time="0.0">
+    <testsuite name="[0]" time="0.0">
+      <testcase name="testTruncateAInFirst2Positions_AInFirst2Position[0]" classname="com.in28minutes.junit.helper.StringHelperParameterizedTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[1]" time="0.0">
+      <testcase name="testTruncateAInFirst2Positions_AInFirst2Position[1]" classname="com.in28minutes.junit.helper.StringHelperParameterizedTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[2]" time="0.0">
+      <testcase name="testTruncateAInFirst2Positions_AInFirst2Position[2]" classname="com.in28minutes.junit.helper.StringHelperParameterizedTest" time="0.0"/>
+    </testsuite>
+    <testsuite name="[3]" time="0.0">
+      <testcase name="testTruncateAInFirst2Positions_AInFirst2Position[3]" classname="com.in28minutes.junit.helper.StringHelperParameterizedTest" time="0.0"/>
+    </testsuite>
+  </testsuite>
+  <testsuite name="com.in28minutes.junit.helper.StringHelperTest" time="0.001">
+    <testcase name="testTruncateAInFirst2Positions_AInFirstPosition" classname="com.in28minutes.junit.helper.StringHelperTest" time="0.0"/>
+    <testcase name="testAreFirstAndLastTwoCharactersTheSame_BasicNegativeScenario" classname="com.in28minutes.junit.helper.StringHelperTest" time="0.0"/>
+    <testcase name="testAreFirstAndLastTwoCharactersTheSame_NegativeScenario" classname="com.in28minutes.junit.helper.StringHelperTest" time="0.0"/>
+    <testcase name="testAreFirstAndLastTwoCharactersTheSame_BasicPositiveScenario" classname="com.in28minutes.junit.helper.StringHelperTest" time="0.0"/>
+    <testcase name="testTruncateAInFirst2Positions_AInTheEnd" classname="com.in28minutes.junit.helper.StringHelperTest" time="0.0"/>
+    <testcase name="testTruncateAInFirst2Positions_NoA" classname="com.in28minutes.junit.helper.StringHelperTest" time="0.0"/>
+    <testcase name="testAreFirstAndLastTwoCharactersTheSame_PositiveScenario" classname="com.in28minutes.junit.helper.StringHelperTest" time="0.0"/>
+    <testcase name="testTruncateAInFirst2Positions_AInFirst2Positions" classname="com.in28minutes.junit.helper.StringHelperTest" time="0.0"/>
+  </testsuite>
+</testrun>

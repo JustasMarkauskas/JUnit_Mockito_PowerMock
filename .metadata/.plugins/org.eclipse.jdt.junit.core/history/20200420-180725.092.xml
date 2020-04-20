@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ArraysCompareTest" project="junit" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="com.in28minutes.junit.helper.ArraysCompareTest" time="0.032">
+    <testcase name="testArraySort_randomArray" classname="com.in28minutes.junit.helper.ArraysCompareTest" time="0.0"/>
+    <testcase name="testArraySort_NullArray" classname="com.in28minutes.junit.helper.ArraysCompareTest" time="0.0"/>
+    <testcase name="testSort_performance" classname="com.in28minutes.junit.helper.ArraysCompareTest" time="0.032"/>
+  </testsuite>
+</testrun>
