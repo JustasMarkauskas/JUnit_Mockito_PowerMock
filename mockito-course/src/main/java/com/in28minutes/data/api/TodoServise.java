@@ -7,8 +7,9 @@ import java.util.List;
 //2. Test TodoBusinessImpl using Stub
 
 public interface TodoServise {
-	public List<String> retrieveTodos(String user);
+	public List<String> retrieveTodos(String user);	
 	
-	
-	
+	public void deleteTodo(String todo);
+
+	public TodoServise should();
 }

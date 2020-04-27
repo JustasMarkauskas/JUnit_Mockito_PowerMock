@@ -15,21 +15,28 @@ public class TodoBusinessImpl {
 		super();
 		this.todoServise = todoServise;
 	}
-	
-	public List<String> retrieveTodosRelatedToSpring(String user){
+
+	public List<String> retrieveTodosRelatedToSpring(String user) {
 		List<String> filteredTodos = new ArrayList<String>();
-		
 		List<String> todos = todoServise.retrieveTodos(user);
-		
-		for(String todo:todos) {
-			if(todo.contains("Spring")) {
+
+		for (String todo : todos) {
+			if (todo.contains("Spring")) {
 				filteredTodos.add(todo);
 			}
 		}
-		
 		return filteredTodos;
-		
 	}
-	
-	
+
+	public void deleteTodosNotRelatedToSpring(String user) {
+
+		List<String> filteredTodos = new ArrayList<String>();
+		List<String> todos = todoServise.retrieveTodos(user);
+
+		for (String todo : todos) {
+			if (!todo.contains("Spring")) {
+				todoServise.deleteTodo(todo);
+			}
+		}
+	}
 }
